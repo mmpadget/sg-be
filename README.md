@@ -61,14 +61,14 @@ Note: these instructions are for a Mac and may be different for other operating 
 	1. Visit: Deploy (for customized commands)
 	1. In command line:
 		1. `git remote -v`
-			1. origin	https://github.com/mmpadget/sg-be.git (fetch)
-			1. origin	https://github.com/mmpadget/sg-be.git (push)
+			1. `origin	https://github.com/mmpadget/sg-be.git (fetch)`
+			1. `origin	https://github.com/mmpadget/sg-be.git (push)`
 		1. `heroku git:remote -a sg-be`
 		1. `git remote -v`
-			1. heroku	https://git.heroku.com/sg-be.git (fetch)
-			1. heroku	https://git.heroku.com/sg-be.git (push)
-			1. origin	https://github.com/mmpadget/sg-be.git (fetch)
-			1. origin	https://github.com/mmpadget/sg-be.git (push)
+			1. `heroku	https://git.heroku.com/sg-be.git (fetch)`
+			1. `heroku	https://git.heroku.com/sg-be.git (push)`
+			1. `origin	https://github.com/mmpadget/sg-be.git (fetch)`
+			1. `origin	https://github.com/mmpadget/sg-be.git (push)`
 1. Deploy to Heroku
 1. `git push heroku master`
 
@@ -76,6 +76,6 @@ Note: these instructions are for a Mac and may be different for other operating 
 1. In Heroku Click: Activity (to verify)
 	1. Click: View build log
 	1. Click: Settings (to copy Heroku domain for next step)
-1. Test API with Postman: https://sg-be.herokuapp.com/api/
+1. Test API with Postman: `https://sg-be.herokuapp.com/api/`
 1. Click: Resources
 	1. Click: mLab MongoDB :: Mongodb
