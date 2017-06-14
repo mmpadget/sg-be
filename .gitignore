@@ -1,9 +1,10 @@
-# slugram ignore 
+# slugram ignore
 db
 .env
 data/*
 coverage
 html-report
+node_modules/*
 # Created by https://www.gitignore.io/api/osx,vim,linux,windows,node
 
 ### OSX ###
