@@ -15,7 +15,7 @@ Note: these instructions are for a Mac and may be different for other operating 
 1. Create a new folder locally called sg-be
 1. Copy slugram-backend files to sg-be
 1. Push an existing repository from the command line:
-	1. git remote add origin https://github.com/mmpadget/sg-be.git
+	1. `git remote add origin https://github.com/mmpadget/sg-be.git`
 	1. `git push -u origin master`
 2. Open both sg-be and slugram-backend in Atom
 1. Copy over any hidden files
